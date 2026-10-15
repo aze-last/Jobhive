@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Sensitive configs
+llm_config.json
+.env
+
+# Word documents (all master CVs, tailored resumes, and cover letters)
+*.docx
+Cover Letter/
+Curriculum Vitae/
+
+# Personal Markdown files (personal application tracking, job match notes, and cover letters)
+# Note: Hive instruction files (README.md, AGENT_INSTRUCTIONS.md, JobHive_Pipeline_Guide.md, etc.) remain tracked
+00-Dashboard.md
+Jobs/*.md
+Resumes/**/*.md
+
+# Local SQLite databases, exports, and run metadata
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.xlsx
+run_summary.json
+
+# Scratch and temporary files
+scratch/
+scratch_*.txt
+*.tmp
+*.log

@@ -1,0 +1,5 @@
+{
+  "base_url": "https://api.xkiro.com/v1",
+  "api_key": "YOUR_API_KEY_HERE",
+  "model": "qwen/qwen3.7-flash:free"
+}
